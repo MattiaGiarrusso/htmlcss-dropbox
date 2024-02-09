@@ -55,13 +55,12 @@ h2 {
     background-color: white;
     width: 100%;
     max-height: 80px;
-    padding: 0px 20px;
+    padding: 20px;
 }
 
 .hero-container {
     background-color: #B4D0E7;
     width: 100%;
-    margin-top: 22px;
 }
 
 .hero {
@@ -130,7 +129,6 @@ hr {
 header {
     color: #000000;
     width: 100%;
-    padding-top: 25px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -183,7 +181,6 @@ header {
     HERO
 -------------------*/
 .titlecenter {
-    width: calc(1180px - 130px);
     padding-top: 100px;
 }
 
@@ -206,6 +203,7 @@ header {
 
 .heroright {
     width: 60%;
+    margin-bottom: -70px;
 }
 
 /*-------------------
@@ -223,7 +221,11 @@ section {
 }
 
 .col-input > input {
-    padding-right: 50px;
+    margin-right: 10px;
+}
+
+label {
+    margin-right: 30px;
 }
 
 .col-main {
@@ -241,11 +243,20 @@ section {
 
 .col-list {
     list-style: none;
-
 }
 
-.col-btn {
+.text-list {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.col-button {
     margin: 20px 0;
+}
+
+.btn-col {
+    width: 100%;
 }
 
 
