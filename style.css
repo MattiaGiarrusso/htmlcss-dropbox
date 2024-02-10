@@ -37,6 +37,10 @@ h2 {
     text-align: left;
 }
 
+h4 {
+    margin: 20px 0;
+}
+
 .col-price {
     font-weight: bold;
     font-size: 14px;
@@ -96,6 +100,18 @@ hr {
     border: 1px solid #D0D0D3;
     padding: 10px 30px;
 }
+
+.col-60 {
+    width: 60%;
+    padding: 20px 30px;
+}
+
+.col-40 {
+    width: 40%;
+    /* display: flex;
+    flex-direction: row-reverse; */
+}
+
 
 /*-------------------
     /GRID LAYOUT
@@ -235,7 +251,10 @@ label {
 
 .col-top {
     text-align: center;
+    border-bottom: 1px solid #D0D0D3;
+    padding: 10px 0;
 }
+
 
 .col-text {
     margin: 20px 0;
@@ -259,16 +278,53 @@ label {
     width: 100%;
 }
 
+.call-action {
+    margin: 40px 0px;
+}
+
+.buy-now {
+    color: #0061FF;
+}
+
+.post-action {
+    width: 20%;
+}
+
+.col-secondlist {
+    padding: 40px 0;
+}
+
+.text-secondlist {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.col-secondlist li:before {
+    content: '✓';
+    color: #0061FF;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.enterprise {
+    border: 1px solid #D0D0D3;
+}
+
+.enterprise-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-enterprise {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 30px;
+}
+
+
+
 
 /*-------------------
     /MAIN
 -------------------*/
 
-
-/*-------------------
-    FOOTER
--------------------*/
-
-/*-------------------
-    /FOOTER
--------------------*/
