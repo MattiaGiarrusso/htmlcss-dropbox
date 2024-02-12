@@ -374,6 +374,7 @@ label {
 .box-green {
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
+    padding: 0px 50px;
 }
 
 .box-bourdeux {
@@ -381,6 +382,7 @@ label {
     position: absolute;
     top: 0%;
     left: 50%;
+    padding: 30px 50px;
 }
 
 .box-blue {
@@ -393,6 +395,7 @@ label {
     position: absolute;
     bottom: 0%;
     left: 50%;
+    padding: 30px 50px;
 }
 
 /*-------------------
