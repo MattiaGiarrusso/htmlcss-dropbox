@@ -121,6 +121,10 @@ hr {
     padding: 10px 30px;
 }
 
+.second-type {
+    padding: 0px;
+}
+
 .col-60 {
     width: 60%;
 }
@@ -283,8 +287,11 @@ label {
     padding: 10px 0;
 }
 
+.col-box {
+    gap: 40px;
+}
 
-.col-text {
+.col-text * {
     margin: 20px 0;
 }
 
@@ -519,7 +526,6 @@ label {
     top: 50%;
     left: 95%;
 }
-
 /*-------------------
     /MAIN
 -------------------*/
