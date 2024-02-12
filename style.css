@@ -94,7 +94,6 @@ h4 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #F5F5F5;
 }
 
 hr {
@@ -439,7 +438,7 @@ label {
 }
 
 .box-central img {
-    width: 50%;
+    width: 40%;
     margin-bottom: 20px;
 }
 
