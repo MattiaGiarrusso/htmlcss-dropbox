@@ -94,6 +94,7 @@ h4 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #F5F5F5;
 }
 
 hr {
@@ -115,6 +116,11 @@ hr {
     width: 40%;
 }
 
+.big-box {
+    width: calc(100vw / 3 );
+    height: calc(100vw / 3 );
+    position: relative;
+}
 
 /*-------------------
     /GRID LAYOUT
@@ -229,8 +235,6 @@ header {
     /HERO
 -------------------*/
 
-
-
 /*-------------------
     MAIN
 -------------------*/
@@ -309,6 +313,8 @@ label {
     padding-right: 10px;
 }
 
+/*----- Enterprise section ----------*/
+
 .enterprise {
     border: 1px solid #D0D0D3;
     margin: 20px 0;
@@ -347,6 +353,8 @@ label {
     margin-bottom: -40px;
 }
 
+/*----- Third section ----------*/
+
 .title-thirdsection {
     max-width: 70%;
     padding-bottom: 30px;
@@ -356,12 +364,7 @@ label {
     padding-bottom: 50px;
 }
 
-.big-box {
-    width: 500px;
-    height: 500px;
-    /* border: 1px dashed orange; */
-    position: relative;
-}
+/*----- box section ----------*/
 
 .little-box {
     width: 50%;
@@ -369,7 +372,7 @@ label {
     display: flex;
     justify-content: center;
     padding: 0px 50px;
-}
+} 
 
 .box-green {
     background-color: #A2D39B;
@@ -387,7 +390,8 @@ label {
 
 .box-blue {
     background-color: #0093CE;
-    padding: 110px 60px;
+    bottom: 0%;
+    padding: 120px 60px;
 }
 
 .box-red {
@@ -395,8 +399,28 @@ label {
     position: absolute;
     bottom: 0%;
     left: 50%;
-    padding: 30px 50px;
+    padding: 50px 50px;
 }
+
+.box-central {
+    background-color: #F5F5F5;
+    padding: 50px 30px;
+}
+
+.box-central * {
+    margin-bottom: 20px;
+}
+
+.box-central img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.box-central hr {
+    width: 30%;
+}
+
+/*----- /box section ----------*/
 
 /*-------------------
     /MAIN
