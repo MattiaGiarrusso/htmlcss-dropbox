@@ -90,6 +90,10 @@ h4 {
     padding: 20px 0;    
 }
 
+.container {
+    width: 100%;
+}
+
 hr {
     margin-top: 10px;
     color: #D0D0D3;
@@ -185,10 +189,10 @@ header {
     padding: 8px 14px;
 }
 
-
 /*-------------------
     /HEADER
 -------------------*/
+
 
 /*-------------------
     HERO
@@ -350,6 +354,47 @@ label {
     padding-bottom: 50px;
 }
 
+.big-box {
+    width: 500px;
+    height: 500px;
+    border: 1px dashed orange;
+    position: relative;
+}
+
+.little-box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+}
+
+.box-green {
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+.box-bourdeux {
+    background-color: #61082B;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+.box-blue {
+    background-color: #0093CE;
+}
+
+.box-red {
+    background-color: #FF1C1C;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+}
+
+.company-logo {
+    fill: white;
+}
 
 /*-------------------
     /MAIN
