@@ -96,6 +96,20 @@ h4 {
     justify-content: space-between;
 }
 
+.banner-section {
+    width: 100%;
+    background-color: #B4D0E7;
+    color: #61082B;
+}
+
+.banner-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0px;
+}
+
 hr {
     margin-top: 10px;
     color: #D0D0D3;
@@ -130,7 +144,6 @@ hr {
 -------------------*/
 
 .btn {
-    background-color: transparent;
     padding: 8px 14px;
     font-family: 'Open Sans', sans-serif;
     cursor: pointer;
@@ -140,6 +153,15 @@ hr {
     background-color: #0061FF;
     color: white;
     border: none;
+}
+
+.btn-white {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    position: absolute;
+    top: 0%;
+    left: 50%;
 }
 
 /*-------------------
@@ -345,6 +367,8 @@ label {
 
 .btn-clear {
     margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid black;
 }
 
 .second-type {
@@ -446,7 +470,55 @@ label {
     width: 30%;
 }
 
-/*----- /box section ----------*/
+/*----- banner section ----------*/
+
+.banner-area {
+    width: 100%;
+    background-color: #B4D0E7;
+    color: #61082B;
+}
+
+.banner-section h2 {
+    padding-right: 20px;
+}
+
+.banner-title {
+    width: 60%;
+    padding-right: 30px;
+}
+
+.banner-btn {
+    width: 40%;
+    position: relative;
+
+}
+
+/*----- banner section ----------*/
+
+.faq-title {
+    padding-top: 150px;
+}
+
+.faq-list {
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-top: 1px solid gray;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.faq-list li {
+    position: relative;
+    border-bottom: 1px solid gray;
+    padding: 30px 0px;
+}
+
+.faq-list i {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+}
 
 /*-------------------
     /MAIN
