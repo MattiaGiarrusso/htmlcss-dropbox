@@ -373,7 +373,11 @@ label {
     justify-content: center;
     align-items: center;
     padding: 0px 40px;
-} 
+}
+
+.little-box img {
+    filter: invert(1);
+}
 
 .box-green {
     background-color: #A2D39B;
