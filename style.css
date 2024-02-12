@@ -383,6 +383,7 @@ label {
 
 .box-blue {
     background-color: #0093CE;
+    padding: 110px 60px;
 }
 
 .box-red {
@@ -390,10 +391,6 @@ label {
     position: absolute;
     bottom: 0%;
     left: 50%;
-}
-
-.company-logo {
-    fill: white;
 }
 
 /*-------------------
