@@ -92,6 +92,8 @@ h4 {
 
 .container {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 hr {
@@ -357,7 +359,7 @@ label {
 .big-box {
     width: 500px;
     height: 500px;
-    border: 1px dashed orange;
+    /* border: 1px dashed orange; */
     position: relative;
 }
 
