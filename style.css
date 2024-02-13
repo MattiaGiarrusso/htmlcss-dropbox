@@ -109,11 +109,6 @@ h4 {
     padding: 150px 0px;
 }
 
-hr {
-    margin-top: 10px;
-    color: #D0D0D3;
-}
-
 .col-20 {
     width: 20%;
 }
@@ -169,6 +164,26 @@ hr {
     position: absolute;
     top: 0%;
     left: 50%;
+}
+
+.btn-blue:hover {
+    background-color: white;
+    color: #0061FF;
+    border: 1px solid #B4D0E7;
+    transition: 0.7s;
+}
+
+.btn-white:hover {
+    background-color: #0061FF;
+    color: white;
+    transition: 0.7s;
+
+}
+
+.btn-clear:hover {
+    background-color: #000000;
+    color: white;
+    transition: 0.7s;
 }
 
 /*-------------------
